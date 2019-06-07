@@ -5,11 +5,19 @@
     <title></title>
   </head>
   <body>
+    Pleae enter your contact information below<br><br>
     <form>
       First <input type="text" name="First" value="" required>
-      Middle <input type="text" name="Middle" value="">
-      Last <input type="text" name="Last" value="" required>
-      <input type="submit">
+      Middle <input type="text" name="Middle" value="" size="1">
+      Last <input type="text" name="Last" value="" required><br><br>
+      Address<br><textarea name="Address" rows="2" cols="80"></textarea>
+      <br>City <input type="text" name="City" value="" required>
+      State <select name="states">
+        <option value="california">CA</option>
+        <option value="colorado">CO</option>
+      </select>
+      <br><br>Telephone <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      <br><br><input type="submit">
 
     </form>
 
